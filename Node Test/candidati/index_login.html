@@ -1,0 +1,147 @@
+<html lang="it-IT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <title>Piattaforma ricerca lavoro</title>
+</head>
+
+<body>
+    <header class="header_nav">
+        <a href="#" class="header_logo"><img src="../img/logo.svg" alt="logo_image"></a>
+        <nav class="nav_bar">
+            <ul class="nav_list">
+                <li><a href="search_result.html" class="nav_item">Trova annunci</a></li>
+                <li><a href="#carica_cv" class="nav_item">Carica il tuo CV</a></li>
+                <li><a href="#consigli" class="nav_item">Consigli utili</a></li>
+                <li><a href="#assistenza" class="nav_item">Assistenza</a></li>
+                <li><a href="../aziende/index.html" class="nav_item">Per le aziende →</a></li>
+            </ul>
+        </nav>
+        <ul class="account">
+            <li class="account_loged">
+                <a href="profile.html">
+                    <img src="../img/profile_large.svg" alt="image_profile">
+                </a>
+            </li>
+            <li class="account_logout">
+                <a href="index.html">
+                    <img src="../img/profile_logout.svg" alt="image_profile">
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="cover">
+            <div class="cover__filter"></div>
+            <div class="main-workers">
+                <h1>Trova il lavoro più adatto a te</h1>
+                <div class="searchbar_container">
+                    <input type="search" class="searchbar_input"
+                        placeholder="Cerca per tipologia di lavoro o usa parola chiave" id="search" name="search"
+                        size="20">
+                    <a href="search_result.html" class="searchbar_button"><img src="../img/searchbar_lens.svg"
+                            alt="searchbar_lens_symbol"></a>
+                </div>
+                <p class="text-basic-wbold">Oppure <span class="text_underline text-basic-wbold"> <a href="login.html"
+                            class="a_link_color">carica il tuo
+                            CV</a></span> per farti notare! </p>
+            </div>
+        </div>
+
+        <section>
+            <div class="section-title" id="carica_cv">
+                <h1>Sei pronto per iniziare la tua ricerca?</h1>
+            </div>
+            <div class="container-large">
+                <div class="card item-x1">
+                    <div class="text_content">
+                        <h2>Carica il tuo CV</h2>
+                        <p>Invia il tuo CV per essere contattato è trovare il lavoro più adatto a te. Ogni giorno,
+                            migliaia
+                            di curriculum vengono
+                            visualizzati dai Recruiter sulla nostra piattaforma!</p>
+                        <a href="profile.html" class="button_a_link-mid">Carica il tuo CV</a>
+                    </div>
+                    <figure class="card_image">
+                        <img src="../img/upload-file-document.svg" alt="upload_file_document_image">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title" id="consigli">
+                <h1>Hai bisogno di qualche suggerimento?</h1>
+            </div>
+            <div class="container-large">
+                <div class="card item-x1">
+                    <div class="text_content">
+                        <h2>Consigli utili</h2>
+                        <p>Leggi i nostri consigli su come creare un CV accattivante o per prepararsi ad un colloquio
+                            con
+                            un’azienda!</p>
+                        <br><br>
+                        <a href="#" class="button_a_link-mid">Leggi consigli</a>
+                    </div>
+                    <figure class="card_image">
+                        <img src="../img/conversation.svg" alt="upload_file_document_image">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <Section class="section-cta" id="assistenza">
+            <h1>Hai bisogno di assistenza?</h1>
+            <h2>Contattaci al numero verde</h2>
+            <h2>800 000 000</h2>
+            <p>Oppure consulta <a href="faq.html" class="text_underline">la pagina delle F.A.Q.</a> per domande comuni.
+            </p>
+        </Section>
+    </main>
+
+    <footer class="footer_container">
+        <nav class="footer_nav">
+            <ul class="footer_nav_ul">
+                <p>Per i candidati</p>
+                <li><a href="search_result.html">Trova annunci</a> </li>
+                <li><a href="#carica_cv">Carica il tuo CV</a> </li>
+                <li><a href="#consigli">Consigli utili</a></li>
+                <li><a href="#assistenza">Assistenza</a></li>
+            </ul>
+            <ul class="footer_nav_ul">
+                <p>Per le aziende</p>
+                <li><a href="../aziende/index.html">Servizi</a></li>
+                <li><a href="../aziende/index.html">Piani</a></li>
+                <li><a href="../aziende/index.html">Assistenza</a></li>
+            </ul>
+            <ul class="footer_nav_ul">
+                <p>Risorse utili</p>
+                <li><a href="conditions.html">Condizioni d'uso</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="security.html">Sicurezza</a></li>
+                <li><a href="cookies.html">Impostazioni cookie</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer_info">
+            <p>Seguici sui socials</p>
+            <div class="social-img">
+                <a href="#"><img src="../img/facebook.svg" alt="facebook_icon"></a>
+                <a href="#"><img src="../img/instagram.svg" alt="instagram_icon"><a href="#"></a>
+                    <a href="#"><img src="../img/twitter.svg" alt="twitter_icon"></a>
+            </div>
+            <p>© 2023 • Recruhero</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.main-workers {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+
+    h1 {
+        color: $seconday-color;
+    }
+}
+.main-workers-search{
+    background: $primary-color-var;
+
+}
+
+.cover {
+    background-image: url("../img/candidate_cover.jpg");
+    background-size: 100%;
+    background-position: center center;
+    -moz-background-size:cover;
+    position: relative;
+    height: 90%;
+}
+  
+.cover-var{
+    @extend .cover;
+    background-image: url("../img/candidate_cover2.jpg")
+}
+.cover__filter{
+    background: $default-color-var;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 50%;
+
+
+}
+.search_container{
+    @extend .main-workers;
+    background: none;
+    flex-direction: row;
+    align-items:flex-start;
+    height: auto;
+    margin: 0 20%;
+}
+
+.main-company {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+    h1 {
+        color: $default-color;
+    }
+
+    a {
+        margin-top: auto;
+        margin-bottom: 32px;
+    }
+}
+
+
+.searchbar_container {
+    border: 1px solid white;
+    background: $default-color;
+    border: 1px $default-color;
+    border-radius: 30px;
+    width: 80%;
+    height: 60px;
+    margin: 5px 0;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.searchbar_header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 8px 0;
+}
+
+
+.searchbar_input {
+    background: $default-color;
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin: 0 20px;
+    font-size: $font-small;
+    font-weight: bold;
+}
+
+.searchbar_button {
+    width: 8%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    display: flex;
+    margin-left: auto;
+
+    img {
+        height: 35px;
+    }
+
+}
+
+// Profilo candidato //
+.main-profile {
+    display: flex;
+    width: 100%;
+
+}
+
+.main-container-profile {
+    background: $primary-color;
+    margin: 0 20%;
+    padding: 32px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    img {
+        max-height: 80px;
+    }
+
+}

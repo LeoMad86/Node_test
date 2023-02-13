@@ -1,0 +1,71 @@
+@import 'variables';
+.header_nav {
+    background: $primary-color;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px 10%;
+    align-items: center;
+    /* position: sticky;
+    top: 0 */
+    a{
+        width: 120px;
+    }
+}
+
+.nav_bar{
+    align-items: center;
+}
+.nav_list {
+    display: flex;
+}
+.nav_item{
+    margin: 0 16px;
+}
+.account{
+    display: flex;
+    margin-left: auto;
+}
+.account_loged{
+ a img{
+    height: 40px;
+    margin: 0 4px;
+ }
+}
+.account_logout{
+    a img{
+       height: 40px;
+       margin: 0 4px;
+    }
+   }
+// Hamburger menu //
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.35 ease-in-out;
+    background: #fff;
+  }
+
+
+// Header per registrazione
+.header_signin{
+    background: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10%;
+
+    h2{
+        color: $default-color;
+        margin: 8px 16px;        
+    }  
+}
+
+

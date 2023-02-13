@@ -1,0 +1,335 @@
+//-----------1520-------------//
+
+//----------Card---------//
+@media (max-width: 1520px) {
+.container-large {
+    flex-direction: column;
+    align-content: center;
+}
+.card_image{
+    height: 250px;
+    img{
+        height: 100%;
+    }
+
+}
+.item-x2{
+    width: 100%;
+}
+
+.card-company-2nd-vers{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card-company-purchase {
+    width: 80%;
+}
+}
+//-----------1370------------//
+
+@media (max-width: 1370px) {
+
+    //---------header------------//    
+    /*.nav_bar{
+    border: 1px solid red;
+    margin: 0 5%;
+    align-self: center;
+}
+*/
+    .account {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+   .account_loged {
+        a img {
+            height: 30px;
+        }
+    }
+
+    .account_logout {
+        a img {
+            height: 30px;
+        }
+
+    }
+
+ 
+
+
+
+
+
+
+}
+
+//-----------1024------------//
+
+@media (max-width: 1024px) {
+
+//---------header------------// 
+    .nav_list {
+        padding: 0;
+    }
+
+    .nav_item {
+
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+//--------Searchbar--------//
+.searchbar_container{
+    width: 80%;
+}
+.searchbar_input{
+    width: 90%;
+}    
+.searchbar_button{
+    width: 10%;
+    margin: 0 16px;
+
+}
+
+//------- Cover------------//
+.cover{
+    background-size: 180%;
+    background-position: center;
+}
+
+//----------Card---------//
+.card{
+    flex-direction: column;
+}
+.text_content{
+    width: 100%;
+}
+.card_image{
+    align-self: center;
+    height: auto;
+    img{
+        height: auto;
+    }
+
+}
+
+
+
+//-------Aside------------//
+.section-showoffer{
+    display:none;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.card-info-small {
+
+    align-self: center;
+    width: 95%; 
+    margin: 0;
+}
+
+
+
+
+
+
+
+}
+
+//-----------848-------------//
+@media (max-width: 848px) {
+
+//---------header------------// 
+    .nav_item {
+
+        font-size: 14px;
+        margin: 0 8px;
+    }
+    .cover{
+        background-size: 270%;
+        background-position: center center;
+        height: 90%;
+    }
+
+
+//---------input-------------//
+.compile_area{
+    margin: 0;
+    padding: 0 16px;
+}
+.compile_area_payment{
+    margin: 0;
+    padding: 0 16px;
+}
+.congrats_area{
+    width: 100%;
+    margin: 0;
+}
+.item-x2 {
+    width: 100%;
+    margin: 16px 0.7%;
+}
+.item-x3{
+    width: 100%;
+}
+.section-cta{
+    text-align: center;
+}
+//-------Card----------//
+.container-large{
+    margin: 32px 0;
+}
+.card{
+    border-radius: 0;
+}
+.card-company{
+    margin: 0;
+    border: 1px solid $default-color;
+    border-radius: 0;
+}
+.card-company-purchase{
+    width: 100%;
+}
+
+
+//------Section----------//
+.section-title{
+    padding: 8px;
+}
+
+//----Popup----------------//
+#popup-filters{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+}
+.popup-content{
+    max-height: 100%;
+    height: 100%;
+}
+.popup-content-var{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: wrap;
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+
+}
+.popup-content_options{
+    flex-direction: column;
+    padding: 0 8px;
+    margin:0 ;
+    height: auto;
+
+}
+
+
+//-------Profile-------------//
+
+.main-container-profile{
+    margin: 0;    
+}
+
+.section-profile{
+    margin: 0;
+}
+
+//--------Footer------------//
+
+.footer_nav{
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer_nav_ul{
+    width: 100%;
+    padding: 0;
+
+    p{
+        width: 100%;
+        text-align: center;
+    }
+    li{
+        text-align: center;
+    }
+}
+
+
+
+
+}
+
+// ----------800-------------//
+@media (max-width: 800px) {
+    .header_nav {
+        padding: 16px 5%;
+
+    }
+
+    .nav_bar {
+        display: none;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: auto;
+    }
+
+//--------Searchbar--------//
+.searchbar_container{
+    width: 80%;
+}
+.searchbar_input{
+    width: 80%;
+    margin: 0 16px;
+}    
+.searchbar_button{
+    width: 10%;
+    margin: 0 16px;
+    
+
+}
+
+
+
+// ----------430-------------//
+@media (max-width: 430px) {
+
+//------- Cover------------//
+
+
+//-------Card--------------//
+.input_layout_order{
+    flex-direction: column;
+}
+.input_layout_x2{
+    width: 200px;
+}
+
+
+}
+}
+
+
+// ----------375-------------//
+
+
+
+
+
+// ----------350-------------/

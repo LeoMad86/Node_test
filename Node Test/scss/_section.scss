@@ -1,0 +1,105 @@
+//Profilo Candidato//
+.section-profile{
+    margin: 0 20%;
+    padding: 32px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+h2 {
+    width: 100%;
+    text-align: left;  
+}
+}
+.section-options{
+    @extend .section-profile;
+    flex-direction: column;
+    margin: 0;
+    box-shadow: none;
+    p{
+        font-size: $font-basic;
+        font-weight: bold;
+        padding: 0;
+    }
+    a{
+        align-self: center;
+    }
+
+}
+.section-cta{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+    border-bottom: 1px solid $default-color;
+    h1 {
+     color: $default-color;
+     font-size: $font-title-large;
+     margin: 16px 0;
+    }
+    h2{
+     color: $default-color;
+     margin: 4px 0;
+    }
+    p{
+        color: $default-color;
+    }
+
+}
+
+//Search result//
+.section-results{
+    width: 100%;
+    padding: 0  20%;
+    display: flex;
+    flex-wrap: wrap;
+    h1{
+        font-size: $font-title-large;
+    }
+h2 {
+    width: 100%;
+    text-align: left;  
+}
+}
+
+.section-showoffer{
+    background-color: $default-color;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 70%;
+    padding: 16px;
+    margin: 32px ;
+    h1,h2,p{
+        color: $default-color-var;
+        width: 100%;
+        height: auto;
+        margin: 4px 0;
+        text-align: left;
+        
+    }
+    h1{
+        font-size: $font-title-large;
+    }
+    h2{
+        font-size: $font-mid;
+    }
+    ul{
+        align-self: flex-start;
+        list-style:circle;
+    }
+    ul li{
+        text-align: left;
+    }
+}
+.section-showoffer__content-var{
+    display: flex;
+    width: 100%;
+    margin: 4px 0;
+    p{
+        align-self: center;
+        text-align: end;
+    }
+}

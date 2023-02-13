@@ -1,0 +1,204 @@
+<html lang="it-IT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/main.css">
+    <title>Piattaforma ricerca lavoro</title>
+</head>
+
+<body>
+    <header class="header_nav">
+        <a href="index_login.html" class="header_logo"><img src="../img/logo.svg" alt="logo_image"></a>
+        <nav class="nav_bar">
+            <ul class="nav_list">
+                <li><a href="index_login.html" class="nav_item">I nostri servizi</a></li>
+                <li><a href="index_login.html" class="nav_item">Piani</a></li>
+                <li><a href="#assistenza" class="nav_item">Assistenza</a></li>
+                <li><a href="../candidati/index.html" class="nav_item">Cerchi lavoro →</a></li>
+            </ul>
+        </nav>
+        <ul class="account">
+            <li class="account_loged">
+                <a href="#">
+                    <img src="../img/profile_large.svg" alt="image_profile">
+                </a>
+            </li>
+            <li class="account_logout">
+                <a href="index.html">
+                    <img src="../img/profile_logout.svg" alt="image_profile">
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-profile">
+            <div class="main-container-profile">
+                <a href=""><img src="../img/profile_large.svg" alt="profile_icon" class="item-x1"></a>
+                <p style="color: white">Nome Azienda</p>
+            </div>
+        </div>
+
+
+        <section class="section-profile">
+            <h2>Profilo aziendale</h2>
+            <div class="item-x1">
+                <div class="card-info">
+                    <div class="card-info_title">
+                        <h3>Informazioni</h3>
+                        <a href=""><img src="../img/edit_pencil.svg" alt="edit_pencil_icon"></a>
+                    </div>
+                    <div class="card-info_list">
+                        <p>Dr. Massimo Onesto legale rappresentante</p>
+                        <p>P.IVA 99999999999</p>
+                        <p>Sede in vicolo Corto n.7</p>
+                        <p>Roma</p>
+                        <p>RM</p>
+                        <p>Italia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item-x1">
+                <div class="card-info">
+                    <div class="card-info_title">
+                        <h3>Piano attivo</h3>
+                       <a href=""><img src="../img/edit_pencil.svg" alt="edit_pencil_icon"></a>
+                    </div>
+                    <div class="card-info_list">
+                        <p><span class="text_bold">Basic</span> - scade il 13/03/2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-x1">
+                <div class="card-info">
+                    <div class="card-info_title">
+                        <h3>Documenti caricati</h3>
+                        <a href=""><img src="../img/edit_pencil.svg" alt="edit_pencil_icon"></a>
+                    </div>
+                    <div class="card-info_list">
+                        <ul class="ul-list-style">
+                            <li>logo.png</li>
+                            <li>offerta_web_dev.docx</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-profile">
+            <h2>Cronologia offerte</h2>
+            <div class="profile-results">
+                <p>Tutti i risultati</p>
+                <a href="#popup-filters" class="button_a_link-small">Filtri</a>
+            </div>
+            <div class="item-x2">
+                <div class="card-info">
+                    <div class="card-offer_list">
+                        <h3>Offerta N.0483978</h3>
+                        <p>Web developer front-end</p>
+                        <p>Pubblicata il <span class="text_bold">13/03/2023</span></p>
+                        <p>Tipologia di contratto: indeterminato full time</p>
+                        <a href="candidate_list.html" class="button_a_link-mid">Visualizza</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-profile">
+            <h2>Promemoria</h2>
+            <p>Attivare il promemoria se si vuole ricevere una notifica in tempo reale delle canidature alle tue
+                offerte.
+            </p>
+            <p>Selezionare la tipologia di promemoria da attivare.</p>
+            <div class="select-options">
+                <input type="checkbox" id="reminder-email" name="reminder-email" value="rem-email_on" /><label
+                    for="rememail_on">Email</label>
+                <input type="checkbox" id="reminder-sms" name="reminder-sms" value="rem-SMS-on" /><label
+                    for="reminder-sms">SMS*</label>
+                <p>*attenzione potrebbero esserci dei costi aggiuntivi da parte del tuo gestore telefonico</p>
+            </div>
+        </section>
+
+        <Section class="section-cta" id="assistenza">
+            <h1>Hai bisogno di assistenza?</h1>
+            <h2>Contattaci al numero verde</h2>
+            <h2>800 000 000</h2>
+            <p>Oppure consulta <a href="faq.html" class="text_underline">la pagina delle F.A.Q.</a> per domande comuni.</p>
+        </Section>
+
+
+        <!-- popup filters-->
+        <div id="popup-filters">
+            <div class="popup-content">
+                <h2>Filtri</h2>
+                <a href="#" class="close-popup"><img src="../img/close.svg" style="height: 30px;" alt="close_icon"></a>
+                <span class="line"></span>
+                <div class="popup-content-var ">
+                    <div class="popup-content_options">
+                        <h3>Data di pubblicazione</h3>
+                        <label for="filt1-option1"><input type="radio" id="filt1-option1" name="option"
+                                value="date-ascend-order" />Ordine crescente</label><br>
+                        <label for="filt1-options2"><input type="radio" id="filt1-options2" name="option"
+                                value="date-descend-order" />Ordine decrescente</label><br>
+                    </div>
+                    <div class="popup-content_options">
+                        <h3>Numero candidati</h3>
+                        <label for="filt2-options1"><input type="radio" id="filt2-options1" name="option"
+                                value="cand-ascend-order" />Ordine crescente</label><br>
+                        <label for="filt2-options2"><input type="radio" id="filt2-options2" name="option"
+                                value="cand-descend-order" />Ordine decrescente</label><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer_container">
+        <nav class="footer_nav">
+            <ul class="footer_nav_ul">
+                <p>Per i candidati</p>
+                <li><a href="../candidati/index.html">Trova annunci</a> </li>
+                <li><a href="../candidati/index.html">Carica il tuo CV</a></li>
+                <li><a href="../candidati/index.html">Consigli utili</a></li>
+                <li><a href="../candidati/index.html">Assistenza</a></li>
+            </ul>
+            <ul class="footer_nav_ul">
+                <p>Per le aziende</p>
+                <li><a href="index_login.html">Servizi</a></li>
+                <li><a href="index_login.html">Piani</a></li>
+                <li><a href="#assistenza">Assistenza</a></li>
+            </ul>
+            <ul class="footer_nav_ul">
+                <p>Risorse utili</p>
+                <li><a href="conditions.html">Condizioni d'uso</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="security.html">Sicurezza</a></li>
+                <li><a href="cookies.html">Impostazioni cookie</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer_info">
+            <p>Seguici sui socials</p>
+            <div class="social-img">
+                <a href="#"><img src="../img/facebook.svg" alt="facebook_icon"></a>
+                <a href="#"><img src="../img/instagram.svg" alt="instagram_icon"><a href="#"></a>
+                    <a href="#"><img src="../img/twitter.svg" alt="twitter_icon"></a>
+            </div>
+            <p>© 2023 • Recruhero</p>
+        </div>
+    </footer>
+</body>
+
+</html>
